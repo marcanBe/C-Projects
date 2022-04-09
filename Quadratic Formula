@@ -1,0 +1,17 @@
+#include <iostream>
+#include <cmath>
+
+int main() {
+  double a, b, c, root1, root2;
+  std::cout << "Enter a number for a: ";
+  std::cin>>a;
+  std::cout << "Enter a number for b: ";
+  std::cin>>b;
+  std::cout << "Enter a number for c: ";
+  std::cin>>c;
+  root1 = (-b + std::sqrt(b*b - 4*a*c))/(2*a);
+  root2 = (-b - std::sqrt(b*b - 4*a*c))/(2*a);
+  std::cout<< root1 << "\n" << root2;
+
+  
+}
