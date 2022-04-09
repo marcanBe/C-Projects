@@ -1,0 +1,16 @@
+#include <iostream>
+
+int main() {
+  double pesos,reais,soles,dollars;
+  std::cout << "Enter number of Colombian Pesos: \n";
+  std::cin >> pesos;
+  std::cout << "Enter number of Brazilian Reais: \n";
+  std::cin >> reais;
+  std::cout << "Enter number of Peruvian Soles: \n";
+  std::cin >> soles;
+  dollars = (3824.997318	* pesos) + ( 5.04	* reais) + (3.738	* soles);
+  std::cout << "US Dollars = $" << dollars;
+
+  
+  
+}
